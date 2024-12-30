@@ -145,11 +145,11 @@ class PostureDetector:
                 if bad_posture_counter > 10 and current_status != 'bad':
                     current_status = 'bad'
                     self._update_status_image('bad.png')
-                    print("\n🚫 Bad posture detected!")
+                    print("🚫 Bad posture detected.")
                 elif bad_posture_counter == 0 and current_status != 'good' and current_status != 'init':
                     current_status = 'good'
                     self._update_status_image('good.png')
-                    print("\n✅ Posture corrected!")
+                    print("✅ Posture corrected.")
             
             debug_frame = frame.copy()
             if results.pose_landmarks:
