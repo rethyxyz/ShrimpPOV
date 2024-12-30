@@ -10,3 +10,5 @@
 *Bad*:
 
 <img src="screenshot_bad.png">
+
+In order for `ShrimPOV` to work properly, you should be in a well lit room with a front facing (web)camera. I have tried using a webcam with a side angle, and do have bounds that account for that, but best results would be from a front facing angle.
